@@ -66,7 +66,16 @@ export default function StarryNightSky() {
   }, []);
   
   return (
-    <div className="fixed inset-0 -z-10 bg-black">
+    <div className="fixed inset-0 -z-10">
+      {/* Static background with gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-black">
+        {/* Additional static effects */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+        {/* Subtle grid pattern */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#222_1px,transparent_1px),linear-gradient(to_bottom,#222_1px,transparent_1px)] bg-[size:40px_40px] opacity-20"></div>
+      </div>
+      
+      {/* Animated stars on canvas */}
       <canvas ref={canvasRef} className="absolute inset-0" />
     </div>
   );
