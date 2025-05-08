@@ -17,7 +17,7 @@ function App() {
   
   
   <div className=' container mx-auto'>
-    <Navbar />
+    
     <Content />
     <About />
     <Technologies />
