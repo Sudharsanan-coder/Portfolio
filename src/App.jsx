@@ -11,8 +11,8 @@ import StarryNightSky from './Components/StarryNightSky.jsx'
 function App() {
   
   return (
-  <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
-  <StarryNightSky></StarryNightSky>
+  <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900 bg-black'>
+  
   
   
   
