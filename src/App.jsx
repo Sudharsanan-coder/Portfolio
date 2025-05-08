@@ -11,7 +11,7 @@ import back from '../public/Background.png'
 function App() {
   
   return (
-  <div className='overflow-x-hidden text-neutral-300  selection:bg-cyan-300 selection:text-cyan-900 ' style={{ backgroundImage: "url('/Background.png')" }}>
+  <div className='overflow-x-hidden text-neutral-300  selection:bg-cyan-300 selection:text-cyan-900 fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat bg-fixed' style={{ backgroundImage: "url('/Background.png')" }}>
    
   <div className=' container mx-auto'>
   
