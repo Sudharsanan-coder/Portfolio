@@ -21,8 +21,8 @@ function App() {
     <Content />
     <About />
     <Technologies />
-    
-    
+    <Experience/>
+    <Certificate/>
     <Email/>
     <Contact/>
     

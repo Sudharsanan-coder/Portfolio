@@ -14,16 +14,16 @@ function Navbar(){
     </div>
 
     <div className="flex items-center gap-2 sm:gap-4 lg:gap-6">
-      <a href="github.com/SteveBenadit" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Sudharsanan-coder" target="_blank" rel="noreferrer">
         <FaGithub className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
       </a>
-      <a href="https://www.linkedin.com/in/steve-benadit/" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/sudharsanan-t-v-58459b257/" target="_blank" rel="noreferrer">
         <IoLogoLinkedin className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
       </a>
-      <a href="https://www.instagram.com/ibxnu/" target="_blank" rel="noreferrer">
+      <a href="https://www.instagram.com/zudharzanan.xd/" target="_blank" rel="noreferrer">
         <FaInstagramSquare className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
       </a>
-      <a href="https://leetcode.com/u/SteveBenadit/" target="_blank" rel="noreferrer">
+      <a href="https://leetcode.com/u/T_V_Sudharsanan/" target="_blank" rel="noreferrer">
         <TbBrandLeetcode className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8" />
       </a>
     </div>
