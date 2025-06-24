@@ -1,5 +1,5 @@
 import React from 'react'
-import Round1 from "../Components/ROund1.jpg"
+import Round1 from "../Components/SteveProfolio.png"
 import { delay, motion } from "framer-motion"
 
 const container =(delay) =>({
@@ -18,7 +18,7 @@ const content = () => {
                    className='font-thin text-4xl sm:text-5xl md:text-6xl lg:text-8xl mt-8 lg:mt-16 tracking-tight'>M.Steve Benadit</motion.div><br></br>
                   
                   <motion.span variants={container(0.5)} initial="hidden" animate="visible"
-                  className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-2'>Full-stack developer</motion.span>
+                  className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-2'>Software Developer</motion.span>
                   
                   <motion.p variants={container(1)} initial="hidden" animate="visible"
                   className='text-lg  font-light'>I am a Full Stack Developer and UI/UX Designer with a strong background in building dynamic web applications and creating visually appealing, user-centered designs.Passionate about problem-solving and continually learning new tools and frameworks, I bring an adaptable and innovative approach to every project.</motion.p>
@@ -28,7 +28,7 @@ const content = () => {
             <div className='w-full lg:w-1/2'>
               <div className='flex justify-center'>
                 <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}}
-                className='rounded-full lg:mt-32 m-10 ms-10' src={Round1}/>
+                className='rounded-full lg:mt-24 m-10 ms-10 bg-cover h-[350px]' src={Round1}/>
               </div> 
             </div>
 
